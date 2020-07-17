@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <category/>
+        <connect_queue/>
+        <description>Virtual Agent Conversation Topics for the NeedIt application</description>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.16",
+  "goals": {
+    "d68ab60eb02741b89394cfac886409ba": {
+      "id": "d68ab60eb02741b89394cfac886409ba",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "6644e13bd4fa4f58a61a72201afacd03": {
+          "id": "6644e13bd4fa4f58a61a72201afacd03",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "bd8f79f78c3d4815b6a1771e1c545015": {
+          "id": "bd8f79f78c3d4815b6a1771e1c545015",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "3678be6f4f7d43e19c1f73de2bd1cb70",
+          "edgeType": "Edge",
+          "source": "6644e13bd4fa4f58a61a72201afacd03",
+          "target": "bd8f79f78c3d4815b6a1771e1c545015",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>NeedIt Virtual Agent Conversations</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>NeedIt Virtual Agent Conversations</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-13 07:37:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c2fe80242fced01070fdfcecf699b646</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NeedIt Virtual Agent Conversations</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_cb_topic_c2fe80242fced01070fdfcecf699b646</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-13 07:37:40</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="DELETE" query="document_key=c2fe80242fced01070fdfcecf699b646"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>c92dee7cdb54b7c0f492c59705961949</instance_id>
+        <instance_name>dev75657</instance_name>
+        <name>sys_cb_topic_c2fe80242fced01070fdfcecf699b646</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><category/><connect_queue/><description>Virtual Agent Conversation Topics for the NeedIt application</description><flexible_conversation_switching>false</flexible_conversation_switching><graph>{
+  "graph_api_version": "1.0.16",
+  "goals": {
+    "d68ab60eb02741b89394cfac886409ba": {
+      "id": "d68ab60eb02741b89394cfac886409ba",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "6644e13bd4fa4f58a61a72201afacd03": {
+          "id": "6644e13bd4fa4f58a61a72201afacd03",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "bd8f79f78c3d4815b6a1771e1c545015": {
+          "id": "bd8f79f78c3d4815b6a1771e1c545015",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "3678be6f4f7d43e19c1f73de2bd1cb70",
+          "edgeType": "Edge",
+          "source": "6644e13bd4fa4f58a61a72201afacd03",
+          "target": "bd8f79f78c3d4815b6a1771e1c545015",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph><key_phrases>NeedIt Virtual Agent Conversations</key_phrases><library>false</library><live_agent>false</live_agent><name>NeedIt Virtual Agent Conversations</name><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider/><roles/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-13 07:37:33</sys_created_on><sys_domain>global</sys_domain><sys_id>c2fe80242fced01070fdfcecf699b646</sys_id><sys_mod_count>1</sys_mod_count><sys_name>NeedIt Virtual Agent Conversations</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_cb_topic_c2fe80242fced01070fdfcecf699b646</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-13 07:37:40</sys_updated_on><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=c2fe80242fced01070fdfcecf699b646"/></record_update>]]></payload>
+        <payload_hash>636886427</payload_hash>
+        <record_name>NeedIt Virtual Agent Conversations</record_name>
+        <reverted_from/>
+        <source>bdb0ad272fb9501070fdfcecf699b6c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-13 07:37:40</sys_created_on>
+        <sys_id>f3fecca42fced01070fdfcecf699b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173471ba54d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-13 07:37:40</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>3ffecca41aced0105b5ee3089c8039c9</update_guid>
+        <update_guid_history>3ffecca41aced0105b5ee3089c8039c9:636886427,5afecca41aced010c27acf8206db6348:-675796480</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-14 07:04:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>0703378f2ebf4b95bfb10a150706bea1</sys_id>
+        <sys_metadata>c2fe80242fced01070fdfcecf699b646</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Virtual Agent Conversations</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_c2fe80242fced01070fdfcecf699b646</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_c2fe80242fced01070fdfcecf699b646">f3fecca42fced01070fdfcecf699b6ca</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-14 07:04:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
